@@ -6,3 +6,4 @@ classes
 *.iml
 local.properties
 gradle.properties
+/target/

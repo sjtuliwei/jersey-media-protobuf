@@ -1,1 +1,2 @@
 com.pakulov.jersey.protobuf.internal.ProtobufAutoDiscoverable
+com.williamli.json.internal.JsonAutoDiscoverable

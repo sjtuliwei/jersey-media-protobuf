@@ -15,13 +15,13 @@
  */
 package com.pakulov.jersey.protobuf;
 
-import com.pakulov.jersey.protobuf.internal.ProtobufProvider;
-
 import javax.ws.rs.core.Configuration;
 import javax.ws.rs.core.Feature;
 import javax.ws.rs.core.FeatureContext;
 import javax.ws.rs.ext.MessageBodyReader;
 import javax.ws.rs.ext.MessageBodyWriter;
+
+import com.pakulov.jersey.protobuf.internal.ProtobufProvider;
 
 public class ProtobufFeature implements Feature {
     @Override
